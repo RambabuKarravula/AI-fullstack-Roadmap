@@ -351,10 +351,10 @@ Deploy full-stack (React + FastAPI) app live with Git version control and enviro
 
 ### 📊 PHASE 5 — Statistics, Probability & Math for ML (Weeks 16–18)
 
-**Duration:** 3 Weeks | **Daily Time:** 2–3 hours
+**Duration:** 21 Days | **Daily Time:** 2–3 hours
 
 #### 🎯 Goal
-Understand the math that powers ML algorithms.
+Understand the mathematical foundation that powers ML algorithms and build statistical intuition.
 
 #### 📘 Topics
 - Descriptive statistics (mean, median, variance)
@@ -365,32 +365,67 @@ Understand the math that powers ML algorithms.
 - Linear algebra (matrix ops)
 - Calculus for optimization (optional)
 
-#### 🧠 Practice
-- Analyze datasets in Jupyter (Pandas + Matplotlib)
-- Apply correlation tests
-- Visualize distributions
+#### 🗓 WEEK 1 — Descriptive Statistics & Probability Basics
 
-#### 🛠 Tools
-NumPy, Pandas, Matplotlib, Seaborn, Jupyter
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 1** | Statistics Setup & Intro | Install NumPy, Pandas, Matplotlib, Seaborn; Mean, Median, Mode | Calculate stats on sample dataset | Khan Academy → Statistics Intro |
+| **Day 2** | Measures of Spread | Variance, Standard Deviation, Range, IQR | Analyze spread in real-world datasets | StatQuest → Variance Explained |
+| **Day 3** | Data Visualization | Histograms, Box plots, Scatter plots | Visualize dataset distributions | Matplotlib/Seaborn Tutorials |
+| **Day 4** | Probability Fundamentals | Sample space, events, probability rules | Solve probability problems (dice, cards) | Khan Academy → Probability |
+| **Day 5** | Conditional Probability | Bayes' Theorem, independence | Medical test accuracy problem | 3Blue1Brown → Bayes Theorem |
+| **Day 6** | Probability Distributions | Uniform, Binomial, Normal distributions | Plot and analyze distributions | Real Python → Distributions |
+| **Day 7** | Mini Project #1 | "📊 Sales Data Analysis" — Calculate stats, visualize trends | Use real e-commerce/sales dataset | Kaggle datasets |
 
-#### 📚 Key Learning Resources
-- Khan Academy: Statistics & Probability
-- 3Blue1Brown: Linear Algebra Series
-- StatQuest (YouTube): Statistics fundamentals
-- Real Python: NumPy tutorials
+#### 🗓 WEEK 2 — Correlation, Hypothesis Testing & Inference
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 8** | Correlation Analysis | Pearson, Spearman correlation, Covariance | Find correlations in dataset | Pandas .corr() documentation |
+| **Day 9** | Visualization of Relationships | Heatmaps, Pair plots, Correlation matrices | Create correlation heatmap | Seaborn Heatmap Tutorial |
+| **Day 10** | Hypothesis Testing Intro | Null/Alternative hypothesis, p-value, significance | Understand A/B testing concepts | StatQuest → Hypothesis Testing |
+| **Day 11** | T-tests & Z-tests | Student's t-test, z-test, when to use each | Perform t-test on sample data | SciPy stats module |
+| **Day 12** | Chi-Square & ANOVA | Categorical data analysis, multiple groups | Test independence in categorical data | Real Python → Chi-Square |
+| **Day 13** | Confidence Intervals | Margin of error, confidence levels | Calculate 95% confidence intervals | Khan Academy → Confidence Intervals |
+| **Day 14** | Mini Project #2 | "🧪 A/B Test Analysis" — Test if new UI increases clicks | Simulate and analyze A/B test | Build from scratch |
+
+#### � WEEK 3 — Linear Algebra & Calculus for ML
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 15** | Vectors & Matrices | NumPy arrays, matrix operations | Create and manipulate matrices | 3Blue1Brown → Linear Algebra |
+| **Day 16** | Matrix Multiplication | Dot product, matrix-vector multiplication | Implement matrix operations | NumPy documentation |
+| **Day 17** | Eigenvalues & Eigenvectors | Concept and importance in ML (PCA) | Calculate eigenvalues with NumPy | Khan Academy → Eigenvectors |
+| **Day 18** | Calculus Basics | Derivatives, gradients, chain rule | Calculate simple derivatives | Khan Academy → Calculus |
+| **Day 19** | Optimization Concepts | Gradient descent, local/global minima | Visualize gradient descent | 3Blue1Brown → Gradient Descent |
+| **Day 20** | Applying Math to ML | How stats/algebra powers ML algorithms | Study linear regression math | StatQuest → Linear Regression |
+| **Day 21** | Capstone Project | "📈 Complete Statistical Analysis Report" | Full EDA with stats, visualizations, insights | Combine all concepts |
+
+#### 🧰 Setup Checklist
+- [ ] Install: `pip install numpy pandas matplotlib seaborn scipy jupyter`
+- [ ] Download sample datasets from Kaggle
+- [ ] Setup Jupyter Notebook environment
+- [ ] Bookmark Khan Academy, 3Blue1Brown, StatQuest
+
+#### 🎓 Outcome After 3 Weeks
+✅ Solid understanding of statistical concepts  
+✅ Comfortable with probability and distributions  
+✅ Can perform hypothesis testing  
+✅ Understand mathematical foundations of ML  
+✅ Ready for machine learning algorithms
 
 ---
 
 ### 🤖 PHASE 6 — Machine Learning (Weeks 19–24)
 
-**Duration:** 6 Weeks | **Daily Time:** 2–3 hours
+**Duration:** 42 Days (6 Weeks) | **Daily Time:** 2–3 hours
 
 #### 🎯 Goal
-Master supervised & unsupervised learning + deep learning basics.
+Master supervised & unsupervised learning, deep learning basics, and build production-ready ML models.
 
 #### 📘 Topics
-- Data preprocessing
-- Train-test split
+- Data preprocessing & feature engineering
+- Train-test split & cross-validation
 - Regression, Classification
 - Decision Trees, Random Forest, SVM
 - Clustering (KMeans, DBSCAN)
@@ -398,33 +433,101 @@ Master supervised & unsupervised learning + deep learning basics.
 - Neural Networks (ANN, CNN, RNN)
 - LSTM, BiLSTM
 
-#### 🗓 Week-by-Week Breakdown
+#### 🗓 WEEK 1 — ML Fundamentals & Data Preprocessing (Days 1–7)
 
-**Week 17:** Statistics & Probability practice  
-**Week 18:** Data Analysis with NumPy, Pandas & Matplotlib  
-**Week 19:** Introduction to Machine Learning (Supervised)  
-**Week 20:** Advanced ML Models & Unsupervised Learning  
-**Week 21:** Deep Learning Foundations  
-**Week 22:** CNNs, RNNs, LSTMs, BiLSTMs
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 1** | ML Environment Setup | Install scikit-learn, TensorFlow, Keras | Create first ML notebook | Scikit-learn Installation |
+| **Day 2** | Data Preprocessing | Handling missing values, normalization, scaling | Clean a messy dataset | Pandas + Scikit-learn preprocessing |
+| **Day 3** | Feature Engineering | Creating features, encoding categorical data | Transform raw data into features | Feature Engineering Guide |
+| **Day 4** | Train-Test Split | Splitting data, validation sets | Split dataset properly | Scikit-learn train_test_split |
+| **Day 5** | Cross-Validation | K-fold, stratified CV | Implement CV on sample data | Cross-validation Tutorial |
+| **Day 6** | Evaluation Metrics | Accuracy, Precision, Recall, F1, ROC-AUC | Calculate metrics manually | Scikit-learn Metrics |
+| **Day 7** | Mini Project #1 | "🧹 Data Preprocessing Pipeline" | Build reusable preprocessing pipeline | Scikit-learn Pipeline |
 
-#### 🧠 Practice Projects
-- Predict UPS demand based on region data
-- Classify news articles (AI project for UPS trends)
-- Build Time-series model for power consumption (LSTM)
-- Stock price prediction using BiLSTM
-- Image classification using CNN
+#### 🗓 WEEK 2 — Supervised Learning: Regression (Days 8–14)
 
-#### 🛠 Tools
-Scikit-learn, TensorFlow, PyTorch, Pandas, Matplotlib, MLflow
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 8** | Linear Regression | Simple & Multiple regression, cost function | Predict house prices | Scikit-learn Linear Regression |
+| **Day 9** | Polynomial Regression | Non-linear relationships, overfitting | Fit polynomial models | Polynomial Features |
+| **Day 10** | Regularization | Ridge, Lasso, ElasticNet | Compare regularization methods | Regularization Guide |
+| **Day 11** | Regression Metrics | MAE, MSE, RMSE, R² score | Evaluate regression models | Regression Metrics |
+| **Day 12** | Feature Importance | Understanding feature impact | Analyze feature importance | Feature Importance Tutorial |
+| **Day 13** | Hyperparameter Tuning | GridSearchCV, RandomizedSearchCV | Optimize model parameters | Hyperparameter Tuning Guide |
+| **Day 14** | Mini Project #2 | "🏠 Real Estate Price Predictor" | End-to-end regression project | Kaggle House Prices Dataset |
+
+#### 🗓 WEEK 3 — Supervised Learning: Classification (Days 15–21)
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 15** | Logistic Regression | Binary classification, sigmoid function | Classify binary outcomes | Logistic Regression Guide |
+| **Day 16** | Decision Trees | Tree-based models, entropy, Gini index | Build decision tree classifier | Decision Tree Classifier |
+| **Day 17** | Random Forest | Ensemble learning, bagging | Implement Random Forest | Random Forest Tutorial |
+| **Day 18** | Support Vector Machines | SVM, kernel trick, margin optimization | Apply SVM on classification task | SVM Guide |
+| **Day 19** | Naive Bayes | Probabilistic classifier, text classification | Build spam classifier | Naive Bayes Tutorial |
+| **Day 20** | Model Comparison | Compare all classifiers, confusion matrix | Evaluate multiple models | Classification Report |
+| **Day 21** | Mini Project #3 | "📧 Email Spam Classifier" | Text classification with multiple models | Build from scratch |
+
+#### 🗓 WEEK 4 — Unsupervised Learning & Dimensionality Reduction (Days 22–28)
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 22** | K-Means Clustering | Centroid-based clustering, elbow method | Segment customers | K-Means Clustering |
+| **Day 23** | Hierarchical Clustering | Dendrogram, agglomerative clustering | Build hierarchical clusters | Hierarchical Clustering Guide |
+| **Day 24** | DBSCAN | Density-based clustering, outlier detection | Identify outliers in data | DBSCAN Tutorial |
+| **Day 25** | PCA (Principal Component Analysis) | Dimensionality reduction, variance | Reduce features while keeping info | PCA Guide |
+| **Day 26** | t-SNE & UMAP | Visualization of high-dimensional data | Visualize embeddings | t-SNE Tutorial |
+| **Day 27** | Anomaly Detection | Isolation Forest, One-class SVM | Detect fraud or anomalies | Anomaly Detection Guide |
+| **Day 28** | Mini Project #4 | "👥 Customer Segmentation Tool" | Cluster customers for marketing | E-commerce dataset |
+
+#### 🗓 WEEK 5 — Deep Learning Foundations (Days 29–35)
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 29** | Neural Networks Intro | Neurons, layers, activation functions | Understand NN architecture | 3Blue1Brown NN Series |
+| **Day 30** | Building ANN with Keras | Sequential model, Dense layers | Build first neural network | Keras Getting Started |
+| **Day 31** | Forward & Backpropagation | How NNs learn, gradient descent | Visualize learning process | Backpropagation Explained |
+| **Day 32** | Loss Functions & Optimizers | MSE, Cross-entropy, Adam, SGD | Experiment with optimizers | Keras Optimizers |
+| **Day 33** | Overfitting & Regularization | Dropout, Early stopping, L1/L2 | Prevent overfitting | Regularization in Deep Learning |
+| **Day 34** | Model Evaluation | Learning curves, validation metrics | Analyze model performance | Keras Callbacks |
+| **Day 35** | Mini Project #5 | "🧠 MNIST Digit Classifier" | Build ANN for digit recognition | MNIST Dataset |
+
+#### 🗓 WEEK 6 — CNNs, RNNs, LSTMs & Time Series (Days 36–42)
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 36** | Convolutional Neural Networks | Conv layers, pooling, filters | Understand CNN architecture | Stanford CNN Course |
+| **Day 37** | Building CNN | Image classification with CNN | Build CNN for CIFAR-10 | Keras CNN Tutorial |
+| **Day 38** | Recurrent Neural Networks | Sequential data, hidden states | Understand RNN architecture | RNN Explained |
+| **Day 39** | LSTM Networks | Long Short-Term Memory, gates | Build LSTM for sequence prediction | LSTM Tutorial |
+| **Day 40** | Bidirectional LSTM | BiLSTM for better context | Implement BiLSTM | BiLSTM Guide |
+| **Day 41** | Time Series Forecasting | Predicting sequential data | Stock price or weather prediction | Time Series with LSTM |
+| **Day 42** | Capstone Project | "⚡ Power Demand Forecasting System" | LSTM-based energy consumption prediction | Real energy dataset |
+
+#### 🧰 Setup Checklist
+- [ ] Install: `pip install scikit-learn tensorflow keras pytorch pandas numpy matplotlib seaborn`
+- [ ] GPU setup (optional): Install CUDA & cuDNN for TensorFlow/PyTorch
+- [ ] Download datasets: Kaggle, UCI ML Repository
+- [ ] Setup MLflow: `pip install mlflow`
+- [ ] Create project folder structure
+
+#### 🎓 Outcome After 6 Weeks
+✅ Build and evaluate ML models (regression, classification)  
+✅ Understand ensemble methods and model optimization  
+✅ Implement unsupervised learning algorithms  
+✅ Create deep learning models (ANN, CNN, RNN, LSTM)  
+✅ Deploy end-to-end ML projects  
+✅ Ready for advanced AI and GenAI topics
 
 ---
 
 ### 🧬 PHASE 7 — Generative AI & LLM Integration (Weeks 25–30)
 
-**Duration:** 6 Weeks | **Daily Time:** 2–3 hours
+**Duration:** 42 Days (6 Weeks) | **Daily Time:** 2–3 hours
 
 #### 🎯 Goal
-Use and build applications on top of large language models.
+Master Large Language Models, build GenAI applications, and integrate AI into real-world systems.
 
 #### 📘 Topics
 - LLM fundamentals (transformers, embeddings)
@@ -435,31 +538,102 @@ Use and build applications on top of large language models.
 - Vector databases (FAISS, Chroma)
 - RAG (Retrieval-Augmented Generation)
 
-#### 🗓 Week-by-Week Breakdown
+#### 🗓 WEEK 1 — LLM Fundamentals & Transformer Architecture (Days 1–7)
 
-**Week 21:** Deep Learning Foundations  
-**Week 22:** CNNs, RNNs, LSTMs, BiLSTMs  
-**Week 23:** Generative AI & LLM Concepts (OpenAI, Gemini, Claude)  
-**Week 24:** LangChain & LlamaIndex Frameworks  
-**Week 25:** LLM Application Integration & Deployment
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 1** | Intro to LLMs | What are LLMs, GPT, BERT, use cases | Read GPT papers (high-level) | OpenAI Research Blog |
+| **Day 2** | Transformer Architecture | Attention mechanism, encoder-decoder | Understand "Attention is All You Need" | Illustrated Transformer |
+| **Day 3** | Tokenization | BPE, WordPiece, SentencePiece | Experiment with tokenizers | Hugging Face Tokenizers |
+| **Day 4** | Embeddings | Word2Vec, GloVe, contextual embeddings | Visualize word embeddings | Embedding Projector |
+| **Day 5** | Context Windows | Token limits, context management | Understand limitations | OpenAI Token Limits |
+| **Day 6** | Fine-tuning vs Prompting | When to fine-tune vs prompt | Compare approaches | Fine-tuning Guide |
+| **Day 7** | Mini Project #1 | "📝 Text Generation Experiment" | Use Hugging Face models locally | Transformers Library |
 
-#### 🧠 Practice Projects
-- Build "Newspaper PDF → Business Leads Extractor"
-- Build "AI-powered Sales Analyzer" using LangChain + OpenAI + FastAPI
-- Document Q&A chatbot with RAG
-- AI Content Generator with prompt engineering
+#### 🗓 WEEK 2 — LLM APIs: OpenAI, Gemini, Claude (Days 8–14)
 
-#### 🛠 Tools
-LangChain, LlamaIndex, OpenAI API, Gemini API, Claude API, ChromaDB, FAISS, Pinecone
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 8** | OpenAI API Setup | API keys, pricing, models (GPT-4, GPT-3.5) | Make first API call | OpenAI API Docs |
+| **Day 9** | OpenAI Chat Completions | System/user/assistant messages | Build simple chatbot | Chat Completions Guide |
+| **Day 10** | Google Gemini API | Gemini Pro, multimodal capabilities | Compare with OpenAI | Gemini API Docs |
+| **Day 11** | Anthropic Claude API | Claude models, constitutional AI | Test Claude's capabilities | Claude API Docs |
+| **Day 12** | API Comparison | Cost, speed, quality comparison | Build comparison tool | Build your own benchmark |
+| **Day 13** | Error Handling & Rate Limits | Retry logic, exponential backoff | Implement robust API calls | Best Practices Guide |
+| **Day 14** | Mini Project #2 | "🤖 Multi-Model Chat Interface" | Switch between OpenAI/Gemini/Claude | Build with Streamlit |
+
+#### 🗓 WEEK 3 — Prompt Engineering & Advanced Techniques (Days 15–21)
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 15** | Prompt Engineering Basics | Zero-shot, few-shot, instructions | Craft effective prompts | Prompt Engineering Guide |
+| **Day 16** | Advanced Prompting | Chain of thought, ReAct, self-consistency | Improve reasoning tasks | Advanced Prompting Techniques |
+| **Day 17** | Prompt Templates | Reusable templates, variables | Build prompt library | LangChain PromptTemplate |
+| **Day 18** | Function Calling | OpenAI function calling, tool use | Connect LLM to external tools | Function Calling Guide |
+| **Day 19** | JSON Mode & Structured Output | Reliable JSON extraction | Parse structured data | Structured Output Guide |
+| **Day 20** | Prompt Optimization | Testing, iteration, A/B testing | Optimize prompts for task | PromptBase Examples |
+| **Day 21** | Mini Project #3 | "📋 AI Data Extractor" | Extract structured info from text | Business card → JSON |
+
+#### 🗓 WEEK 4 — LangChain Framework (Days 22–28)
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 22** | LangChain Setup | Installation, core concepts | First LangChain app | LangChain Quickstart |
+| **Day 23** | LLMs & Chat Models | Integrating different providers | Switch between models easily | LangChain Models |
+| **Day 24** | Chains | LLMChain, SimpleSequentialChain | Build multi-step workflows | LangChain Chains |
+| **Day 25** | Memory | ConversationBufferMemory, summaries | Add memory to chatbot | LangChain Memory |
+| **Day 26** | Agents & Tools | ReAct agents, custom tools | Build agent with calculator | LangChain Agents |
+| **Day 27** | Output Parsers | Structured output parsing | Parse LLM responses reliably | Output Parsers Guide |
+| **Day 28** | Mini Project #4 | "🔧 AI Agent with Tools" | Agent that uses search + calculator | Combine LangChain features |
+
+#### 🗓 WEEK 5 — Vector Databases & RAG (Days 29–35)
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 29** | Vector Embeddings | OpenAI embeddings, similarity search | Create embeddings for text | Embeddings Guide |
+| **Day 30** | FAISS Setup | Local vector database | Store and search vectors | FAISS Documentation |
+| **Day 31** | ChromaDB | Persistent vector store | Build knowledge base | ChromaDB Quickstart |
+| **Day 32** | RAG Architecture | Retrieval-Augmented Generation | Understand RAG pipeline | RAG Explained |
+| **Day 33** | Document Loaders | PDF, CSV, web scraping for RAG | Load documents into vectorDB | LangChain Document Loaders |
+| **Day 34** | Text Splitters | Chunking strategies for RAG | Optimize chunk size | Text Splitters Guide |
+| **Day 35** | Mini Project #5 | "📚 PDF Q&A Chatbot" | Ask questions from uploaded PDFs | Full RAG implementation |
+
+#### 🗓 WEEK 6 — LlamaIndex & Production Deployment (Days 36–42)
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 36** | LlamaIndex Intro | Index types, query engines | Setup LlamaIndex | LlamaIndex Docs |
+| **Day 37** | Data Connectors | Load data from multiple sources | Connect to APIs, databases | Data Connectors Guide |
+| **Day 38** | Advanced RAG | Re-ranking, hybrid search | Improve retrieval quality | Advanced RAG Techniques |
+| **Day 39** | Multi-Document QA | Query across multiple documents | Build knowledge assistant | Multi-Doc QA |
+| **Day 40** | Deployment with FastAPI | Serve LLM app as API | Create REST endpoints | FastAPI + LangChain |
+| **Day 41** | Streamlit Dashboard | Interactive UI for GenAI app | Build user-friendly interface | Streamlit for AI Apps |
+| **Day 42** | Capstone Project | "🧠 Business Intelligence Assistant" | PDF upload → Extract leads → Analyze trends → Answer questions | Full stack GenAI app |
+
+#### 🧰 Setup Checklist
+- [ ] Get API keys: OpenAI, Google AI Studio (Gemini), Anthropic
+- [ ] Install: `pip install langchain openai google-generativeai anthropic chromadb faiss-cpu llama-index`
+- [ ] Install: `pip install pypdf pdfplumber python-docx`
+- [ ] Setup environment variables for API keys
+- [ ] Download sample PDFs and documents for testing
+
+#### 🎓 Outcome After 6 Weeks
+✅ Understand transformer architecture and LLM fundamentals  
+✅ Use OpenAI, Gemini, and Claude APIs effectively  
+✅ Master prompt engineering techniques  
+✅ Build applications with LangChain framework  
+✅ Implement RAG systems with vector databases  
+✅ Deploy GenAI applications with FastAPI  
+✅ Create production-ready AI assistants
 
 ---
 
 ### 🧱 PHASE 8 — MLOps, Collaboration & Productivity Tools (Weeks 31–34)
 
-**Duration:** 4 Weeks | **Daily Time:** 2–3 hours
+**Duration:** 28 Days (4 Weeks) | **Daily Time:** 2–3 hours
 
 #### 🎯 Goal
-Deploy ML models efficiently and manage experiments.
+Deploy ML models efficiently, manage experiments, automate workflows, and integrate AI with business tools.
 
 #### 📘 Topics
 - MLflow for experiment tracking
@@ -467,75 +641,210 @@ Deploy ML models efficiently and manage experiments.
 - Google Sheets & Docs for collaboration
 - Model deployment via FastAPI + Cloud
 - GitHub Actions for model pipelines
+- Data versioning with DVC
 
-#### 🗓 Week-by-Week Breakdown
+#### 🗓 WEEK 1 — MLOps Foundations & MLflow (Days 1–7)
 
-**Week 26:** MLOps Foundations (MLflow setup, experiment tracking)  
-**Week 27:** DagsHub, MLflow & Model Registry  
-**Week 28:** Workflow Automation & Integration (Google Sheets API)  
-**Week 29:** Full-Scale AI Production System
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 1** | MLOps Introduction | ML lifecycle, CI/CD for ML, versioning | Understand MLOps concepts | Google MLOps Guide |
+| **Day 2** | MLflow Setup | Installation, tracking server setup | Setup local MLflow server | MLflow Quickstart |
+| **Day 3** | Experiment Tracking | Log parameters, metrics, artifacts | Train model and log to MLflow | MLflow Tracking |
+| **Day 4** | Model Registry | Register, version, stage models | Manage model versions | MLflow Model Registry |
+| **Day 5** | MLflow Projects | Reproducible ML code | Package ML project | MLflow Projects |
+| **Day 6** | MLflow Models | Model packaging, deployment formats | Save and load models | MLflow Models Guide |
+| **Day 7** | Mini Project #1 | "📊 ML Experiment Dashboard" | Train multiple models, compare in MLflow | Full ML pipeline with tracking |
 
-#### 🧠 Practice Projects
-- Deploy your trained ML model via FastAPI API endpoint
-- Track experiments in MLflow
-- Connect results to Google Sheets
-- Build automated retraining pipeline
-- Smart Data Insight & Automation Platform (Capstone)
+#### 🗓 WEEK 2 — DagsHub, DVC & Version Control (Days 8–14)
 
-#### 🛠 Tools
-MLflow, DagsHub, FastAPI, Google Sheets API, GitHub Actions, DVC
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 8** | DagsHub Introduction | GitHub for data science, integrations | Create DagsHub account | DagsHub Docs |
+| **Day 9** | DVC Setup | Data Version Control installation | Initialize DVC in project | DVC Get Started |
+| **Day 10** | Data Versioning | Track datasets with DVC | Version large datasets | DVC Data Versioning |
+| **Day 11** | DVC Pipelines | Define ML pipelines as code | Create reproducible pipeline | DVC Pipelines |
+| **Day 12** | Remote Storage | S3, Google Drive for DVC | Setup remote storage | DVC Remote Storage |
+| **Day 13** | DagsHub Integration | Connect MLflow + DVC + GitHub | Full versioning workflow | DagsHub + MLflow |
+| **Day 14** | Mini Project #2 | "🔄 Versioned ML Pipeline" | Complete project with data + code + model versioning | Push to DagsHub |
+
+#### 🗓 WEEK 3 — Automation & Business Tool Integration (Days 15–21)
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 15** | Google Sheets API Setup | OAuth, credentials, access | Connect to Google Sheets | Google Sheets API Guide |
+| **Day 16** | Read/Write Operations | Fetch and update sheet data | Automate data entry | gspread Python Library |
+| **Day 17** | Google Docs API | Generate reports automatically | Create formatted documents | Google Docs API |
+| **Day 18** | Scheduled Tasks | Cron jobs, Python scheduler | Run scripts on schedule | APScheduler Tutorial |
+| **Day 19** | Email Automation | Send reports via email | Automate email notifications | smtplib Guide |
+| **Day 20** | Webhook Integration | Trigger workflows from external events | Setup webhook listener | Flask Webhooks |
+| **Day 21** | Mini Project #3 | "📬 Automated Reporting System" | ML results → Google Sheets → Email report | Complete automation workflow |
+
+#### 🗓 WEEK 4 — Model Deployment & CI/CD for ML (Days 22–28)
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 22** | Model Deployment Basics | Serialization, API design for ML | Deploy model via FastAPI | FastAPI ML Deployment |
+| **Day 23** | Docker for ML | Containerize ML applications | Create Dockerfile for ML app | Docker ML Tutorial |
+| **Day 24** | GitHub Actions for ML | Automate testing and deployment | Setup CI/CD pipeline | GitHub Actions ML Guide |
+| **Day 25** | Model Monitoring | Track model performance, drift detection | Implement monitoring | Model Monitoring Best Practices |
+| **Day 26** | Retraining Pipelines | Automated retraining workflows | Trigger retraining on new data | MLOps Retraining |
+| **Day 27** | A/B Testing for Models | Deploy multiple model versions | Compare model performance live | A/B Testing Guide |
+| **Day 28** | Capstone Project | "⚡ Production ML System" | End-to-end: training → versioning → deployment → monitoring → automation | Full MLOps pipeline |
+
+#### 🧰 Setup Checklist
+- [ ] Install: `pip install mlflow dagshub dvc prefect gspread google-auth APScheduler`
+- [ ] Create DagsHub account and connect GitHub
+- [ ] Setup Google Cloud project for Sheets/Docs API
+- [ ] Configure OAuth credentials
+- [ ] Install Docker Desktop
+- [ ] Setup GitHub Actions in repository
+
+#### 🎓 Outcome After 4 Weeks
+✅ Track and manage ML experiments with MLflow  
+✅ Version data, code, and models with DVC + DagsHub  
+✅ Automate workflows with Google Sheets integration  
+✅ Deploy ML models with proper versioning  
+✅ Implement CI/CD pipelines for ML projects  
+✅ Build production-ready MLOps systems  
+✅ Monitor and retrain models automatically
 
 ---
 
 ### 🧠 PHASE 9 — Portfolio & Real Projects (Weeks 35–40)
 
-**Duration:** 6 Weeks | **Daily Time:** 3–4 hours
+**Duration:** 42 Days (6 Weeks) | **Daily Time:** 3–4 hours
 
 #### 🎯 Goal
-Showcase your expertise and be job/project ready.
+Build production-grade AI applications, create a professional portfolio, and become job-ready.
 
-#### 🗓 Week-by-Week Breakdown
+#### 📘 Focus Areas
+- Product thinking and system design
+- Full-stack AI application development
+- Model fine-tuning and customization
+- Portfolio building and personal branding
+- Advanced specializations
 
-**Week 30:** Product Thinking for AI Engineers  
-**Week 31:** Applied AI Product 1 — Business Intelligence Agent  
-**Week 32:** Applied AI Product 2 — Intelligent Data Dashboard  
-**Week 33:** Applied AI Product 3 — GenAI Chatbot / Knowledge Engine  
-**Week 34:** AI Research & Model Customization (Fine-tuning)  
-**Week 35:** Portfolio, Resume & LinkedIn Optimization  
-**Week 36:** Advanced AI Engineering (Optional Specialization)
+#### 🗓 WEEK 1 — Product Thinking & System Design (Days 1–7)
 
-#### 🧩 Capstone Project Ideas
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 1** | AI Product Mindset | Problem → Solution → Product | Identify 3 AI product opportunities | Product Management Basics |
+| **Day 2** | User-Centric Design | User personas, pain points | Create user journey map | UX for AI Products |
+| **Day 3** | System Architecture | Microservices, data flow, scalability | Design architecture diagram | System Design Primer |
+| **Day 4** | Tech Stack Selection | Choosing right tools for project | Compare tech stacks | Technology Decision Guide |
+| **Day 5** | Project Planning | Milestones, timelines, MVP | Create project roadmap | Agile for Solo Developers |
+| **Day 6** | Documentation Planning | API docs, user guides, technical specs | Write technical requirements | Documentation Best Practices |
+| **Day 7** | Project Kickoff | Setup project structure, GitHub repo | Initialize first capstone project | Professional Project Setup |
 
-1. **UPS Market Intelligence Tool**  
-   Upload PDFs → extract company names + contact + need analysis (LLM + FastAPI + React)
+#### 🗓 WEEK 2 — Capstone Project 1: Business Intelligence Agent (Days 8–14)
 
-2. **AI Sales Trend Dashboard**  
-   Visualize sector trends (React + FastAPI + ML)
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 8** | Project Setup | Initialize full-stack project | Setup React + FastAPI + database | Previous phase learnings |
+| **Day 9** | PDF Processing Backend | Upload & extract text from PDFs | Build PDF processing API | pdfplumber, PyPDF2 |
+| **Day 10** | LLM Integration | Extract structured data using LLM | Connect OpenAI/Gemini for extraction | LangChain + Function Calling |
+| **Day 11** | Database Design | Store leads, companies, contacts | Design and implement DB schema | PostgreSQL + SQLAlchemy |
+| **Day 12** | Frontend Dashboard | React UI for upload & results | Build responsive dashboard | React + Recharts |
+| **Day 13** | Export & Analytics | Export to CSV/Excel, trend analysis | Add export functionality | Pandas export features |
+| **Day 14** | Deploy & Document | Deploy full app, write documentation | Host on Vercel + Render | Deployment guides |
 
-3. **AI Power Demand Predictor**  
-   LSTM-based forecast + charts
+**Capstone 1 Deliverable:** 📊 **AI-Powered Business Leads Extractor**  
+_Upload newspaper PDFs → Extract company names, contacts, business needs → Analyze trends → Export results_
 
-4. **GenAI Research Assistant**  
-   Summarize articles using LangChain + OpenAI
+#### 🗓 WEEK 3 — Capstone Project 2: Intelligent Data Dashboard (Days 15–21)
 
-5. **Document Intelligence Assistant**  
-   Ask questions from uploaded PDFs and get summarized insights
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 15** | Dashboard Architecture | Plan analytics dashboard | Design wireframes | Figma for dashboards |
+| **Day 16** | Data Pipeline | Connect to multiple data sources | Setup ETL pipeline | Python data connectors |
+| **Day 17** | ML Integration | Predictive analytics in dashboard | Add ML predictions | Scikit-learn + FastAPI |
+| **Day 18** | Real-time Updates | WebSockets for live data | Implement real-time features | WebSocket Guide |
+| **Day 19** | Interactive Visualizations | Charts, graphs, filters | Build with Recharts/Plotly | Data Viz Best Practices |
+| **Day 20** | User Authentication | Login, roles, permissions | Add auth system | JWT + React Context |
+| **Day 21** | Deploy & Polish | Final deployment and testing | Production deployment | Testing checklist |
 
-#### 🎯 Deliverables
-- 3-4 major AI applications (live & deployed)
-- Fine-tuned domain-specific model
-- Professional portfolio website
-- LinkedIn presence with project showcases
-- Technical blog posts / Medium articles
+**Capstone 2 Deliverable:** 📈 **Real-Time Analytics Dashboard**  
+_Connect data sources → ML predictions → Interactive visualizations → Real-time updates → Role-based access_
+
+#### 🗓 WEEK 4 — Capstone Project 3: GenAI Knowledge Assistant (Days 22–28)
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 22** | RAG Architecture | Design knowledge base system | Plan document ingestion | RAG System Design |
+| **Day 23** | Document Processing | Multi-format support (PDF, DOCX, web) | Build document loaders | LangChain document loaders |
+| **Day 24** | Vector Database | Setup and optimize vector store | Implement ChromaDB/Pinecone | Vector DB optimization |
+| **Day 25** | Conversational AI | Memory, context, follow-ups | Build chatbot with memory | LangChain Memory |
+| **Day 26** | Citation & Sources | Show source documents | Add source tracking | RAG with citations |
+| **Day 27** | UI Development | Streamlit or React chat interface | Build chat UI | Streamlit Chat Elements |
+| **Day 28** | Deploy & Test | Production deployment | Test with real documents | Deployment + monitoring |
+
+**Capstone 3 Deliverable:** 💬 **Intelligent Document Q&A Assistant**  
+_Upload documents → Semantic search → Conversational AI → Cited answers → Multi-document support_
+
+#### 🗓 WEEK 5 — Model Fine-tuning & Advanced AI (Days 29–35)
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 29** | Fine-tuning Basics | When and how to fine-tune | Understand fine-tuning process | Fine-tuning Guide |
+| **Day 30** | Dataset Preparation | Collect and format training data | Create fine-tuning dataset | Dataset formatting |
+| **Day 31** | OpenAI Fine-tuning | Fine-tune GPT models | Fine-tune on custom data | OpenAI Fine-tuning API |
+| **Day 32** | Open Source Models | Llama, Mistral, Gemma fine-tuning | Experiment with open models | Hugging Face Training |
+| **Day 33** | Evaluation & Testing | Compare base vs fine-tuned | Measure improvements | Model evaluation metrics |
+| **Day 34** | Deployment | Deploy fine-tuned model | Serve via API | Model deployment |
+| **Day 35** | Mini Project #4 | "🎯 Domain-Specific AI Model" | Fine-tune model for your industry | Complete fine-tuning project |
+
+#### 🗓 WEEK 6 — Portfolio, Branding & Job Prep (Days 36–42)
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 36** | Portfolio Website Design | Plan portfolio structure | Design wireframes | Portfolio examples |
+| **Day 37** | Build Portfolio Site | Showcase all projects | Build with React/Next.js | Next.js Portfolio Template |
+| **Day 38** | GitHub Profile Optimization | README, pinned repos, contributions | Polish GitHub profile | GitHub Profile Guide |
+| **Day 39** | LinkedIn Optimization | Professional summary, projects, skills | Update LinkedIn profile | LinkedIn Tips for Developers |
+| **Day 40** | Technical Writing | Blog posts about projects | Write 2-3 blog posts | Medium, Dev.to |
+| **Day 41** | Resume & Cover Letter | AI Engineer resume | Create ATS-friendly resume | Resume templates |
+| **Day 42** | Final Review | Test all projects, fix bugs | Ensure everything works | Quality checklist |
+
+#### 🎯 End-of-Phase Deliverables
+
+**🚀 Live Projects:**
+1. **Business Intelligence Agent** (deployed & documented)
+2. **Real-Time Analytics Dashboard** (deployed & documented)
+3. **GenAI Knowledge Assistant** (deployed & documented)
+4. **Fine-tuned AI Model** (domain-specific)
+
+**📁 Portfolio Assets:**
+- Professional portfolio website (live URL)
+- GitHub with 4+ major projects
+- LinkedIn profile with project showcases
+- 2-3 technical blog posts
+- Professional resume
+- Demo videos for each project
+
+#### 🧰 Setup Checklist
+- [ ] Domain name for portfolio (optional)
+- [ ] Vercel/Netlify account for hosting
+- [ ] Professional headshot photo
+- [ ] LinkedIn Premium (optional)
+- [ ] Medium/Dev.to account
+- [ ] Video recording software (OBS, Loom)
+
+#### 🎓 Outcome After 6 Weeks
+✅ 4 production-ready AI applications deployed  
+✅ Fine-tuned AI model for specific domain  
+✅ Professional portfolio showcasing expertise  
+✅ Optimized LinkedIn and GitHub profiles  
+✅ Technical writing and documentation skills  
+✅ **Ready for AI Engineer positions or freelancing**
 
 ---
 
 ### 🌍 PHASE 10 — Cloud & Advanced Specialization (Weeks 41–48)
 
-**Duration:** 8 Weeks | **Daily Time:** 3–4 hours
+**Duration:** 56 Days (8 Weeks) | **Daily Time:** 3–4 hours
 
 #### 🎯 Goal
-Get comfortable with large-scale deployment & data pipelines at enterprise level.
+Master enterprise-level deployment, scalability, security, and monetization strategies for AI systems.
 
 #### 📘 Topics
 - **AWS:** EC2, S3, Lambda, RDS
@@ -548,26 +857,146 @@ Get comfortable with large-scale deployment & data pipelines at enterprise level
 - SaaS monetization strategies
 - Open-source contributions
 
-#### 🗓 Week-by-Week Breakdown
+#### 🗓 WEEK 1 — Performance Optimization & Scalability (Days 1–7)
 
-**Week 37:** Performance Optimization & Scalability  
-**Week 38:** Advanced Cloud & Enterprise Deployment (Docker, K8s)  
-**Week 39:** Security, Compliance & Data Governance  
-**Week 40:** Enterprise AI Automation & Orchestration (Airflow, Prefect)  
-**Week 41:** Monetization & Productization of AI Apps  
-**Week 42:** Open-Source Contribution & Leadership
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 1** | Code Optimization | Profiling, bottleneck identification | Profile Python code with cProfile | Python Profiling Guide |
+| **Day 2** | Model Optimization | Quantization, pruning, distillation | Reduce model size by 50% | TensorFlow Optimization |
+| **Day 3** | Caching Strategies | Redis, in-memory caching | Implement API response caching | Redis Tutorial |
+| **Day 4** | Async Programming | Asyncio, concurrent requests | Convert sync code to async | Python Asyncio Guide |
+| **Day 5** | Database Optimization | Indexing, query optimization | Speed up database queries | PostgreSQL Performance |
+| **Day 6** | Load Testing | Apache Bench, Locust | Test API under load | Load Testing Guide |
+| **Day 7** | Mini Project #1 | "⚡ Optimized ML API" | Reduce latency by 70% | Apply all optimization techniques |
 
-#### 🧠 Practice Projects
-- Deploy FastAPI app on AWS EC2
-- Store PDF data in S3
-- Connect LLM pipeline to GCP Vertex AI
-- Build subscription-based SaaS platform
-- Implement JWT auth + logging + audit tracking
-- Create automated ML retraining pipeline
+#### 🗓 WEEK 2 — AWS Cloud Services (Days 8–14)
 
-#### 🎯 Final Capstone
-**"Enterprise AI Suite"**  
-Combine optimization, scaling, automation, security, and monetization into one unified intelligent system.
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 8** | AWS Account Setup | Free tier, IAM, billing alerts | Create AWS account, setup IAM | AWS Getting Started |
+| **Day 9** | EC2 Instances | Launch, configure, SSH access | Deploy FastAPI on EC2 | EC2 Tutorial |
+| **Day 10** | S3 Storage | Buckets, permissions, static hosting | Store and serve files from S3 | S3 Guide |
+| **Day 11** | RDS Databases | Managed PostgreSQL/MySQL | Connect app to RDS database | RDS Tutorial |
+| **Day 12** | AWS Lambda | Serverless functions, triggers | Deploy serverless API | Lambda Guide |
+| **Day 13** | API Gateway | REST APIs, authentication | Expose Lambda via API Gateway | API Gateway Tutorial |
+| **Day 14** | Mini Project #2 | "☁️ Full AWS Deployment" | Deploy complete app on AWS | EC2 + RDS + S3 integration |
+
+#### 🗓 WEEK 3 — GCP & Advanced Cloud (Days 15–21)
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 15** | GCP Setup | Free tier, project setup | Create GCP project | GCP Getting Started |
+| **Day 16** | Compute Engine | VM instances, configurations | Deploy app on GCP VM | Compute Engine Guide |
+| **Day 17** | Cloud Storage | GCS buckets, data management | Store datasets in GCS | Cloud Storage Tutorial |
+| **Day 18** | BigQuery | Data warehouse, SQL queries | Analyze large datasets | BigQuery Guide |
+| **Day 19** | Vertex AI | ML model deployment | Deploy ML model to Vertex AI | Vertex AI Tutorial |
+| **Day 20** | Cloud Run | Containerized deployments | Deploy Docker containers | Cloud Run Guide |
+| **Day 21** | Mini Project #3 | "🌐 GCP ML Platform" | Complete ML workflow on GCP | Training + Deployment on GCP |
+
+#### 🗓 WEEK 4 — Docker & Kubernetes (Days 22–28)
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 22** | Docker Advanced | Multi-stage builds, optimization | Optimize Docker images | Docker Best Practices |
+| **Day 23** | Docker Compose | Multi-container applications | Setup app + database + redis | Docker Compose Tutorial |
+| **Day 24** | Kubernetes Intro | Pods, services, deployments | Understand K8s concepts | Kubernetes Basics |
+| **Day 25** | Kubernetes Setup | Minikube, kubectl | Setup local K8s cluster | Minikube Guide |
+| **Day 26** | K8s Deployment | Deploy app to Kubernetes | Create deployment manifest | K8s Deployment Guide |
+| **Day 27** | Scaling & Load Balancing | Horizontal pod autoscaling | Auto-scale based on load | K8s Autoscaling |
+| **Day 28** | Mini Project #4 | "🚢 Kubernetes AI Platform" | Deploy ML app on K8s | Full K8s orchestration |
+
+#### 🗓 WEEK 5 — Security, Compliance & Monitoring (Days 29–35)
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 29** | API Security | Rate limiting, API keys, OAuth2 | Secure all API endpoints | API Security Best Practices |
+| **Day 30** | Data Encryption | At-rest, in-transit encryption | Encrypt sensitive data | Encryption Guide |
+| **Day 31** | GDPR Compliance | Data privacy, user rights | Implement GDPR features | GDPR Compliance Guide |
+| **Day 32** | Logging & Monitoring | ELK stack, CloudWatch, Datadog | Setup comprehensive logging | Logging Best Practices |
+| **Day 33** | Error Tracking | Sentry, error notifications | Monitor production errors | Sentry Integration |
+| **Day 34** | Audit Trails | Track all system actions | Implement audit logging | Audit Trail Guide |
+| **Day 35** | Mini Project #5 | "🔒 Secure AI Platform" | Security + compliance + monitoring | Enterprise-grade security |
+
+#### 🗓 WEEK 6 — Enterprise Automation & Orchestration (Days 36–42)
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 36** | Apache Airflow | DAGs, workflows, scheduling | Setup Airflow | Airflow Tutorial |
+| **Day 37** | Airflow ML Pipelines | Automated training pipelines | Create ML DAG | Airflow ML Guide |
+| **Day 38** | Prefect | Modern workflow orchestration | Build Prefect flows | Prefect Guide |
+| **Day 39** | Data Pipelines | ETL, data validation | Build production pipeline | Data Pipeline Best Practices |
+| **Day 40** | Monitoring Workflows | Alerts, notifications, dashboards | Monitor pipeline health | Workflow Monitoring |
+| **Day 41** | Cost Optimization | Resource management, auto-shutdown | Reduce cloud costs by 40% | Cloud Cost Optimization |
+| **Day 42** | Mini Project #6 | "🔄 Automated ML Platform" | End-to-end automated ML system | Data → Training → Deploy → Monitor |
+
+#### 🗓 WEEK 7 — SaaS Monetization & Business (Days 43–49)
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 43** | SaaS Business Model | Pricing strategies, tiers | Design pricing structure | SaaS Pricing Guide |
+| **Day 44** | Payment Integration | Stripe, PayPal integration | Add subscription payments | Stripe Tutorial |
+| **Day 45** | API Key Management | Usage tracking, rate limiting | Implement API key system | API Key Management |
+| **Day 46** | Usage Analytics | Track user behavior, metrics | Build analytics dashboard | Analytics Implementation |
+| **Day 47** | Customer Dashboard | User portal, billing, usage | Create customer interface | Dashboard Design |
+| **Day 48** | Email Marketing | Onboarding, newsletters | Setup email automation | Email Marketing Guide |
+| **Day 49** | Mini Project #7 | "💰 AI SaaS Platform" | Monetized AI product | Subscription-based AI service |
+
+#### 🗓 WEEK 8 — Open Source & Final Capstone (Days 50–56)
+
+| Day | 🎯 Focus | 📘 Concepts / Mini Projects | 🧠 Practice Tasks | 🛠 Resources |
+|-----|----------|----------------------------|------------------|--------------|
+| **Day 50** | Open Source Contribution | Find projects, make PRs | Contribute to LangChain/MLflow | Contributing Guide |
+| **Day 51** | Technical Documentation | Write comprehensive docs | Document your projects | Documentation Guide |
+| **Day 52** | Community Building | Discord/Slack, social media | Build online presence | Community Building |
+| **Day 53** | Conference Talks | Prepare presentation | Create talk proposal | Public Speaking Tips |
+| **Day 54** | Capstone Planning | Architecture, features, timeline | Plan final enterprise project | Project Planning |
+| **Day 55** | Capstone Development | Build enterprise AI suite | Combine all Phase 10 learnings | All previous resources |
+| **Day 56** | Final Presentation | Demo, documentation, launch | Present your capstone | Launch Checklist |
+
+#### 🎯 Final Capstone Project
+
+**"🏢 Enterprise AI Suite"**
+
+**Features:**
+- Multi-tenant SaaS platform
+- AI-powered document processing
+- Real-time analytics dashboard
+- Automated ML pipelines
+- Subscription-based access
+- Complete security & compliance
+- Kubernetes deployment
+- Monitoring & alerting
+- Cost optimization
+- Open API for integrations
+
+**Tech Stack:**
+- Frontend: React + TypeScript + TailwindCSS
+- Backend: FastAPI + PostgreSQL + Redis
+- AI: LangChain + OpenAI + Custom fine-tuned models
+- Infrastructure: AWS/GCP + Docker + Kubernetes
+- MLOps: MLflow + DVC + Airflow
+- Monitoring: Prometheus + Grafana + Sentry
+- Payments: Stripe
+
+#### 🧰 Setup Checklist
+- [ ] AWS and GCP accounts with billing alerts
+- [ ] Docker Desktop installed
+- [ ] Kubernetes (kubectl, minikube)
+- [ ] Stripe account for payments
+- [ ] Domain name purchased
+- [ ] SSL certificates
+- [ ] Monitoring tools setup
+- [ ] CI/CD pipelines configured
+
+#### 🎓 Outcome After 8 Weeks
+✅ Master AWS and GCP cloud platforms  
+✅ Deploy and manage Kubernetes clusters  
+✅ Implement enterprise-grade security  
+✅ Build automated ML pipelines  
+✅ Create monetized SaaS products  
+✅ Contribute to open-source projects  
+✅ **Ready for Senior AI Engineer / ML Architect roles**  
+✅ **Capable of building and scaling AI startups**
 
 ---
 
